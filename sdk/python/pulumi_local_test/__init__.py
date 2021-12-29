@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "local-test",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_local_test",
   "classes": {
-   "xyz:index:Random": "Random"
+   "local-test:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "local-test",
+  "token": "pulumi:providers:local-test",
+  "fqn": "pulumi_local_test",
   "class": "Provider"
  }
 ]
