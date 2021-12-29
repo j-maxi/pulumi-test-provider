@@ -1,8 +1,8 @@
 {
-    "name": "xyz",
+    "name": "local-test",
     "version": "0.0.1",
     "resources": {
-        "xyz:index:Random": {
+        "local-test:index:Random": {
             "properties": {
                 "length": {
                     "type": "integer"
@@ -33,7 +33,7 @@
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-xyz/sdk/go/xyz"
+            "importBasePath": "github.com/j-maxi/pulumi-test-provider/sdk/go/local-test"
         },
         "nodejs": {
             "dependencies": {

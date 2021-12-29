@@ -1,5 +1,5 @@
-import * as xyz from "@pulumi/xyz";
+import * as test from "@pulumi/local-test";
 
-const random = new xyz.Random("my-random", { length: 24 });
+const random = new test.Random("my-random", { length: 20 });
 
 export const output = random.result;
